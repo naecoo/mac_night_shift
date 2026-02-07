@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="#1a1a2e"/>
+  
+  <!-- Moon/Sun icon -->
+  <circle cx="256" cy="256" r="120" fill="#f4d03f"/>
+  
+  <!-- Warm overlay representing night shift -->
+  <circle cx="256" cy="256" r="120" fill="#e67e22" opacity="0.4"/>
+  
+  <!-- Small stars -->
+  <circle cx="150" cy="150" r="8" fill="#ffffff" opacity="0.8"/>
+  <circle cx="350" cy="120" r="6" fill="#ffffff" opacity="0.6"/>
+  <circle cx="380" cy="350" r="10" fill="#ffffff" opacity="0.7"/>
+  <circle cx="130" cy="380" r="5" fill="#ffffff" opacity="0.5"/>
+</svg>
