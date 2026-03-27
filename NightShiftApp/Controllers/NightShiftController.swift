@@ -114,7 +114,11 @@ class NightShiftController: ObservableObject {
         let enabled = statusPtr.load(fromByteOffset: 1, as: Int8.self)
         isEnabled = enabled != 0
     }
-    
+
+    func increaseStrength(by amount: Float = 0.1) {
+        setStrength(strength + amount)
+    }
+
     deinit {
         if let handle = frameworkHandle {
             dlclose(handle)
