@@ -5,7 +5,8 @@ class NightShiftController: ObservableObject {
     private var frameworkHandle: UnsafeMutableRawPointer?
     private var blueLightClient: AnyObject?
     @Published private(set) var isEnabled: Bool = false
-    
+    @Published private(set) var strength: Float = 0.5
+
     init() {
         loadStatus()
     }
