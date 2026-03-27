@@ -18,21 +18,41 @@ class NightShiftController: ObservableObject {
     
     func setEnabled(_ enabled: Bool) {
         guard let client = getBlueLightClient() else { return }
-        
+
         let selector = NSSelectorFromString("setEnabled:")
         guard client.responds(to: selector) else { return }
-        
+
         guard let methodIMP = client.method(for: selector) else { return }
-        
+
         typealias SetEnabledFunc = @convention(c) (AnyObject, Selector, Int) -> Bool
         let setEnabled = unsafeBitCast(methodIMP, to: SetEnabledFunc.self)
-        
+
         let enabledValue = enabled ? 1 : 0
         _ = setEnabled(client, selector, enabledValue)
-        
+
         self.isEnabled = enabled
     }
-    
+
+    func setStrength(_ strength: Float) {
+        let clampedStrength = max(0.0, min(1.0, strength))
+        guard let client = getBlueLightClient() else { return }
+
+        let selector = NSSelectorFromString("setStrength:")
+        guard client.responds(to: selector) else { return }
+
+        guard let methodIMP = client.method(for: selector) else { return }
+
+        typealias SetStrengthFunc = @convention(c) (AnyObject, Selector, Float) -> Bool
+        let setStrength = unsafeBitCast(methodIMP, to: SetStrengthFunc.self)
+
+        let success = setStrength(client, selector, clampedStrength)
+        if success {
+            self.strength = clampedStrength
+        } else {
+            print("Failed to set Night Shift strength to \(clampedStrength)")
+        }
+    }
+
     private func getBlueLightClient() -> AnyObject? {
         if let client = blueLightClient {
             return client
