@@ -1,8 +1,23 @@
 # nightshift
 
-A simple CLI tool and Raycast extension to control macOS Night Shift mode.
+A Better Display alternative for macOS - control display brightness and Night Shift with multi-monitor support and global hotkeys.
 
-## CLI Tool
+## Features
+
+- **Night Shift Control**
+  - Toggle Night Shift on/off
+  - Adjust Night Shift strength (0-100%)
+
+- **Brightness Control**
+  - Per-display brightness adjustment
+  - Multi-monitor support
+
+- **Global Hotkeys**
+  - ⌘⇧N: Toggle Night Shift
+  - ⌘⇧↑/↓: Increase/Decrease brightness (all displays)
+  - ⌘⇧←/→: Increase/Decrease Night Shift strength
+
+## CLI Tool (Legacy)
 
 ### Build
 
