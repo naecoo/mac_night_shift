@@ -8,31 +8,34 @@ struct NightShiftMenuView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            nightShiftToggle
-            
+            NightShiftControlSection(nightShift: nightShift)
+
             if !displayManager.displays.isEmpty {
                 Divider()
-                perDisplayControls
+                BrightnessControlSection(displayManager: displayManager)
             }
-            
+
+            Divider()
+            HotkeyHintSection()
+
             Divider()
             settingsSection
         }
         .padding()
-        .frame(width: 280)
+        .frame(width: 320)
     }
     
     private var nightShiftToggle: some View {
-        Toggle(isOn: $nightShift.isEnabled) {
+        Toggle(isOn: Binding(
+            get: { nightShift.isEnabled },
+            set: { _ in nightShift.toggle() }
+        )) {
             HStack(spacing: 8) {
                 Image(systemName: nightShift.isEnabled ? "moon.fill" : "moon")
                     .foregroundColor(nightShift.isEnabled ? .orange : .secondary)
                 Text("Night Shift")
                     .fontWeight(.medium)
             }
-        }
-        .onChange(of: nightShift.isEnabled) { _, newValue in
-            nightShift.toggle()
         }
     }
     
