@@ -119,6 +119,10 @@ class NightShiftController: ObservableObject {
         setStrength(strength + amount)
     }
 
+    func decreaseStrength(by amount: Float = 0.1) {
+        setStrength(strength - amount)
+    }
+
     deinit {
         if let handle = frameworkHandle {
             dlclose(handle)
