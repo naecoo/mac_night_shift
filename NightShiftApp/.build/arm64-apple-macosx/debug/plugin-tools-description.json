@@ -1,0 +1,461 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.NightShift-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/sources",
+      "importPath" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/DisplayManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/NightShiftController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/DisplayInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/NightShiftStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/NightShiftApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/HotkeyManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/PermissionChecker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/BrightnessControlSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/DisplayRowView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/HotkeyHintSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftControlSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftMenuView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "NightShift",
+      "moduleOutputPath" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/Modules/NightShift.swiftmodule",
+      "objects" : [
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayManager.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftController.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayInfo.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftStatus.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftApp.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyManager.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/PermissionChecker.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/BrightnessControlSection.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayRowView.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyHintSection.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftControlSection.swift.o",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftMenuView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j11",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "NightShift_main",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "nightshiftapp"
+      ],
+      "outputFileMapPath" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/PermissionChecker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/BrightnessControlSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyHintSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftControlSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftMenuView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/Modules/NightShift.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/DisplayManager.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/NightShiftController.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/DisplayInfo.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/NightShiftStatus.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/NightShiftApp.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/HotkeyManager.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/PermissionChecker.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/BrightnessControlSection.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/DisplayRowView.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/HotkeyHintSection.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftControlSection.swift",
+        "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftMenuView.swift"
+      ],
+      "tempsPath" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "NightShift" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "NightShift",
+      "-package-name",
+      "nightshiftapp",
+      "-incremental",
+      "-c",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/DisplayManager.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/NightShiftController.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/DisplayInfo.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/NightShiftStatus.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/NightShiftApp.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/HotkeyManager.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/PermissionChecker.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/BrightnessControlSection.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/DisplayRowView.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/HotkeyHintSection.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftControlSection.swift",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftMenuView.swift",
+      "-I",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j11",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "NightShift_main",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "nightshiftapp",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "NightShift" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift-entitlement.plist"
+    },
+    "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/DisplayManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/NightShiftController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/DisplayInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/NightShiftStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/NightShiftApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/HotkeyManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/PermissionChecker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/BrightnessControlSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/DisplayRowView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/HotkeyHintSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftControlSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftMenuView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/sources"
+    },
+    "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/BrightnessControlSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyHintSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftControlSection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftMenuView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/PermissionChecker.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.product/Objects.LinkFileList"
+    },
+    "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "": {
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/master.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/DisplayManager.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayManager.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayManager.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayManager.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Controllers/NightShiftController.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftController.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftController.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftController~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftController.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/DisplayInfo.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayInfo.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayInfo.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayInfo.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Models/NightShiftStatus.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftStatus.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftStatus.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftStatus~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftStatus.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/NightShiftApp.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftApp.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftApp.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftApp.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/HotkeyManager.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyManager.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyManager.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyManager.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Services/PermissionChecker.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/PermissionChecker.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/PermissionChecker.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/PermissionChecker~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/PermissionChecker.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/BrightnessControlSection.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/BrightnessControlSection.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/BrightnessControlSection.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/BrightnessControlSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/BrightnessControlSection.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/DisplayRowView.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayRowView.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayRowView.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayRowView~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/DisplayRowView.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/HotkeyHintSection.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyHintSection.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyHintSection.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyHintSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/HotkeyHintSection.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftControlSection.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftControlSection.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftControlSection.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftControlSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftControlSection.swiftdeps"
+  },
+  "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/Views/NightShiftMenuView.swift": {
+    "dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftMenuView.d",
+    "object": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftMenuView.swift.o",
+    "swiftmodule": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftMenuView~partial.swiftmodule",
+    "swift-dependencies": "/Users/oceanpeng/Desktop/code/golang/nightshift/NightShiftApp/.build/arm64-apple-macosx/debug/NightShift.build/NightShiftMenuView.swiftdeps"
+  }
+}
