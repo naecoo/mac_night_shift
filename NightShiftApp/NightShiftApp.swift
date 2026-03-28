@@ -19,11 +19,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.accessory)
-        
+
+        // Check and request screen recording permission if needed
+        if !PermissionChecker.hasScreenRecordingPermission() {
+            // Don't request immediately, let user click in menu
+            print("Screen recording permission not granted")
+        }
+
         nightShift = NightShiftController()
         displayManager = DisplayManager()
         hotkeyManager = HotkeyManager(nightShift: nightShift, displayManager: displayManager)
-        
+
         setupStatusBar()
     }
     
