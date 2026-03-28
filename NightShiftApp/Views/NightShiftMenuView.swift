@@ -56,12 +56,15 @@ struct NightShiftMenuView: View {
     
     private var settingsSection: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Button("Hotkey Settings...") {
-                // Open hotkey settings
+            if !PermissionChecker.hasScreenRecordingPermission() {
+                Button("Request Screen Recording Permission") {
+                    PermissionChecker.requestScreenRecordingPermission()
+                }
+                .font(.caption)
             }
-            
+
             Divider()
-            
+
             Button("Quit NightShift") {
                 NSApplication.shared.terminate(nil)
             }
