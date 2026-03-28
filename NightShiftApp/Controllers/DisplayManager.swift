@@ -50,6 +50,12 @@ class DisplayManager: ObservableObject {
         refreshDisplays()
     }
 
+    func increaseAllBrightness(by amount: Float = 0.1) {
+        for display in displays {
+            increaseBrightness(display.displayID, by: amount)
+        }
+    }
+
     private func startDisplayMonitoring() {
         DistributedNotificationCenter.default().addObserver(
             forName: NSNotification.Name("NSApplicationDidBecomeActive"),
