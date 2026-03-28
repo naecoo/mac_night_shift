@@ -23,6 +23,9 @@ class HotkeyManager: ObservableObject {
         registerHotkey(keyCode: UInt32(kVK_DownArrow), modifiers: UInt32(cmdKey | shiftKey)) {
             self.displayManager.decreaseAllBrightness(by: 0.1)
         }
+        registerHotkey(keyCode: UInt32(kVK_LeftArrow), modifiers: UInt32(cmdKey | shiftKey)) {
+            self.nightShift.increaseStrength(by: 0.1)
+        }
     }
     
     func registerHotkey(keyCode: UInt32, modifiers: UInt32, action: @escaping () -> Void) {
